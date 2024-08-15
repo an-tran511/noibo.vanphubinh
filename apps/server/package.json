@@ -6,10 +6,18 @@
 		"dev": "bun run --watch src/index.ts"
 	},
 	"dependencies": {
-		"elysia": "latest"
+		"@elysiajs/cors": "^1.1.0",
+		"@mikro-orm/core": "^6.3.6",
+		"@mikro-orm/postgresql": "^6.3.6",
+		"@mikro-orm/reflection": "^6.3.6",
+		"@mikro-orm/sqlite": "^6.3.6",
+		"elysia": "latest",
+		"ts-node": "^10.9.2"
 	},
 	"devDependencies": {
-		"bun-types": "latest"
+		"@mikro-orm/cli": "^6.3.6",
+		"bun-types": "latest",
+		"typescript": "^5.5.4"
 	},
 	"module": "src/index.js",
 	"main": "src/index.ts",
